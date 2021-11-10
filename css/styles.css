@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primaryFont: Roboto;
   --primaryFontSize: 14px;
   --secondFontSize: 16px;
@@ -18,9 +18,9 @@
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --boxShadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
-body {
+/* body {
   margin: 0;
   font-family: var(--primaryFont), Verdana, Geneva, Tahoma, sans-serif;
   font-size: var(--primaryFontSize);
@@ -69,7 +69,8 @@ img {
   appearance: none;
   border: 0;
   border-radius: 4px;
-}
+  cursor: pointer;
+} */
 
 .title {
   font-weight: 700;
@@ -77,24 +78,23 @@ img {
   color: var(--darckColor);
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* ========Header======== */
 .header {
