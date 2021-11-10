@@ -1,0 +1,78 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--darckColor);
+  transition: color 250ms var(--cubic);
+}
+
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  top: 97%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accentColor);
+  border-radius: 2px;
+}
+
+.nav-link.current,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accentColor);
+}
+
+/* ========Tel , Mail======== */
+.contact {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contact-item:nth-child(2n) {
+  margin-left: 30px;
+}
+
+.icon-contact {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+  transition: color 250ms var(--cubic);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accentColor);
+}
