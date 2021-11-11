@@ -14,12 +14,13 @@
   font-style: normal;
   color: var(--lightColor);
   transition: color 250ms var(--cubic);
+  
+      &:hover,
+      &:focus {
+        color: var(--accentColor);
+      }
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: var(--accentColor);
-}
 
 .footer-item:first-child {
   margin-bottom: 9px;
@@ -29,12 +30,13 @@
   font-style: normal;
   color: var(--footerColor);
   transition: color 250ms var(--cubic);
+  
+    &:hover,
+    &:focus {
+      color: var(--accentColor);
+    }
 }
 
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accentColor);
-}
 
 .footer-container {
   display: flex;

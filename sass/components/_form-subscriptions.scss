@@ -19,13 +19,14 @@
   box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   transition: border-color 250ms var(--cubic);
+  
+    &:focus,
+    &:hover {
+      outline: none;
+      border-color: var(--accentColor);
+    }
 }
 
-.form-subscriptions-input:focus,
-.form-subscriptions-input:hover {
-  outline: none;
-  border-color: var(--accentColor);
-}
 
 .form-button {
   display: flex;
