@@ -2,28 +2,21 @@
   padding-bottom: 94px;
 }
 
-.section-title {
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.work-list {
+.work__list {
   display: flex;
 }
 
-.work-item {
+.work__item {
   position: relative;
 }
 
-.work-item:not(:first-child) {
-  margin-left: 30px;
+.work__item {
+  &:not(:first-child){
+    margin-left: 30px;
+  }
 }
 
-.work-overlay {
+.work__overlay {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -34,7 +27,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-content {
+.work__content {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

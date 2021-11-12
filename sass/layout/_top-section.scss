@@ -1,11 +1,11 @@
-.top-section {
+.top__section {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
   background-color: var(--darkBgColor);
 }
 
-.top-section.overlay {
+.top__section.overlay {
   max-width: 1600px;
   background-image: linear-gradient(
       to top,
@@ -17,7 +17,7 @@
   background-size: cover;
 }
 
-.top-title {
+.top__title {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -29,7 +29,7 @@
   text-transform: uppercase;
 }
 
-.top-btn {
+.top__btn {
   min-width: 200px;
   padding: 10px 32px;
   font-weight: bold;
@@ -42,10 +42,10 @@
   border-radius: 4px;
   transition: background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
   cursor: pointer;
-}
 
-.top-btn:focus,
-.top-btn:hover {
-  background-color: var(--hoverBtnColor);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  &:focus,
+  &:hover {
+    background-color: var(--hoverBtnColor);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }

@@ -1,18 +1,21 @@
-.client-icon {
+.client__icon {
   fill: currentColor;
 }
 
-.client-list {
+.client__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.client-item:not(:last-child) {
-  margin-right: 30px;
+.client__item {
+  &:not(:last-child){
+    margin-right: 30px;
+  }
+  
 }
 
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;

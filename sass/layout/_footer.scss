@@ -9,24 +9,26 @@
   margin-right: 70px;
 }
 
-.address-link {
+.address__link {
   margin-bottom: 9px;
   font-style: normal;
   color: var(--lightColor);
   transition: color 250ms var(--cubic);
   
-      &:hover,
-      &:focus {
-        color: var(--accentColor);
-      }
+  &:hover,
+  &:focus {
+    color: var(--accentColor);
+  }
 }
 
-
-.footer-item:first-child {
-  margin-bottom: 9px;
+.footer__item {
+  &:first-child{
+    margin-bottom: 9px;
+  }
+  
 }
 
-.footer-link {
+.footer__link {
   font-style: normal;
   color: var(--footerColor);
   transition: color 250ms var(--cubic);
@@ -43,7 +45,7 @@
   align-items: baseline;
 }
 
-.footer-title {
+.footer__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
