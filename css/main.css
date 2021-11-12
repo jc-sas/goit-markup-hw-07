@@ -398,7 +398,7 @@ img {
   margin-bottom: 50px;
 }
 
-.filter__item:not(:last-child) {
+.filter__item:not(:first-child) {
   margin-left: 8px;
 }
 
